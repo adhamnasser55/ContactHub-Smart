@@ -433,13 +433,13 @@ function updateEmergncy() {
                                     <div id="smallEmergncyItem"
                                         class="contact-item-emergency  d-flex align-items-center gap-3 p-2 rounded-3">
                                         <div class="flex-shrink-0">
-                                          ${renderAvatar(contact.userName, contact.userImage)}
+                                         ${renderAvatar(contactList[i].userName, contactList[i].userImage)}
                                         </div>
                                         <div class="flex-grow-1 text-truncate">
-                                            <h4 class="mb-0 fw-medium text-dark small text-truncate">${contact.userName}</h4>
-                                            <p class="mb-0 text-muted small text-truncate">${contact.userName}</p>
+                                            <h4 class="mb-0 fw-medium text-dark small text-truncate">${contactEmergency.userName}</h4>
+                                            <p class="mb-0 text-muted small text-truncate">${contactEmergency.userPhone}</p>
                                         </div>
-                                        <a href="tel:${contact.userName}"
+                                        <a href="tel:${contactEmergency.userPhone}"
                                             class="call-btn-emergency call-btn-rose d-flex align-items-center justify-content-center flex-shrink-0">
                                             <i class="fas fa-phone"></i>
                                         </a>
