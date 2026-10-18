@@ -1,1 +1,1 @@
-# ContactHub-Smart
+# ContactHub
