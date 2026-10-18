@@ -352,20 +352,18 @@ submitModalBtn.addEventListener("click", function (e) {
     Swal.fire({
       title: "Added !",
       timer: 2000,
-      timerProgressBar: true,
       text: "Contact has been added successfully !",
       icon: "success",
       showConfirmButton: false,
     });
     addContact();
   } else {
-    sendUpdateData();
+    sendDataUpdate();
     contactModal.classList.add("d-none");
     contactModal.classList.remove("d-flex");
     Swal.fire({
       title: "Updated !",
       timer: 2000,
-      timerProgressBar: true,
       text: "Contact has been updated successfully !",
       icon: "success",
       showConfirmButton: false,
